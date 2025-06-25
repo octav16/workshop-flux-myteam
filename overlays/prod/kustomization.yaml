@@ -1,0 +1,7 @@
+resources:
+  - ../../base
+
+configMapGenerator:
+  - name: myapp-index
+    files:
+      - index.html
